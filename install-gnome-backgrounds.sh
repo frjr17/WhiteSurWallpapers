@@ -91,8 +91,8 @@ uninstall() {
 }
 
 uninstall_nord() {
-  [[ -d ${BACKGROUND_DIR}/Wallpaper-nord ]] && rm -rf ${BACKGROUND_DIR}/${BACKGROUND_DIR}/Wallpaper-nord
-  [[ -f ${PROPERTIES_DIR}/Mojave.xml ]] && rm -rf ${PROPERTIES_DIR}/Mojave.xml
+  [[ -d ${BACKGROUND_DIR}/Wallpaper-nord ]] && rm -rf "${BACKGROUND_DIR}/Wallpaper-nord"
+  [[ -f ${PROPERTIES_DIR}/Mojave.xml ]] && rm -f "${PROPERTIES_DIR}/Mojave.xml"
 }
 
 install_nord_wallpaper() {
